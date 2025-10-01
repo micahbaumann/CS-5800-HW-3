@@ -1,6 +1,6 @@
 package com.example.hw3.pizza_and_movies;
 
-public class Driver {
+public class PizzaDriver {
     public static void run() {
         Pizza pizza1 = new PizzaBuilder("Small").addPepperoni().addExtraCheese().addBacon().buildPizza();
         pizza1.eat();
